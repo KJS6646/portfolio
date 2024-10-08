@@ -32,8 +32,9 @@
 
 body {
   margin:0;
-  min-height: 250vh;
   background-color: var(--color-gray);
+  width: 100%;
+  overflow-wrap: hidden;
 }
 
 .sr-only {
@@ -51,10 +52,13 @@ body {
 th {
   font-size: var(--font-size-tag);
   padding: 10px;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 td {
   font-size: var(--font-size-larger);
+  border-right: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
 }
 
@@ -65,7 +69,9 @@ ul {
 }
 
 html {
+  width: 100%;
   /* 세로 스크롤 overlay 처리 */
+  overflow-x: hidden;
   overflow-y: overlay;
 
   /* 스크롤바의 box-shadow 색상값을 지정 */
@@ -89,4 +95,14 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar {
   width: 12px;
   height: 12px;
+}
+
+@media (max-width:768px) {
+  :root {
+    --font-size-title: 34px;
+    --font-size-subtitle: 22px;
+    --font-size-tag: 18px;
+    --font-size-larger: 16px;
+    --font-size-text: 14px;
+  }  
 }

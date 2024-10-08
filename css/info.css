@@ -23,8 +23,7 @@
 
 .info__cert {
   background-color: var(--color-area);
-  width: 60vw;
+  width: 90vw;
   color: white;
-  font-size: var(--font-size-text);
   height: 40vh;
 }

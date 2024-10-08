@@ -63,6 +63,7 @@
 @media (max-width:768px) {
   .intro {
     height: 50vh;
+    font-size: 0.8em;
   }
   .intro__title {
     flex-direction: column;

@@ -11,13 +11,13 @@
   flex-direction: column;
   text-align: left;
   height: 50%;
-  width: 80vw;
+  width: 90vw;
   background-color: var(--color-area);
 }
 
 details { 
   margin:15px 0 10px; 
-  width: 60%;
+  width: 80%;
 }
 
 details > summary { 
@@ -67,11 +67,12 @@ details[open] > summary {
 .history__comp {
   margin-bottom: 50px;
   background-color: var(--color-area);
-  width: 80vw;
+  width: 90vw;
   color: white;
   font-size: var(--font-size-text);
-  height: 20vh;
+  height: 30vh;
 }
+
 
 @media (max-width: 768px) {
   .history__detail {
