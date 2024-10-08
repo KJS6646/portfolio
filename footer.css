@@ -1,0 +1,27 @@
+.contact__table {
+  color: white;
+  font-size: var(--font-size-text);
+  margin-bottom: 100px;
+}
+
+.contact__table th {
+  font-weight: bold;
+  text-align: right;
+}
+
+.contact__table td {
+  font-weight: bold;
+  text-align: left;
+  padding: 20px;
+  border: none;
+}
+
+.contact__table th::after {
+  content: '';
+  margin-left: 30px;
+  border-right: 1px solid #eee;
+}
+
+.contact__table a {
+  color: #60c940;
+}
