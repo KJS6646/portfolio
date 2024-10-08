@@ -1,0 +1,109 @@
+#tech {
+  border: 1px solid var(--color-area);
+  margin-top: 50px;
+}
+
+.tech__article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.tech__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.tech__item img {
+  width: 150px;
+  height: 150px;
+  animation: tech__animation;
+  animation-direction: alternate;
+  animation-duration: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.tech__title {
+  font-weight: bold;
+  text-align: center;
+  color: var(--color-sub);
+  font-size: var(--font-size-tag);
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 20px;
+}
+
+.tech__item h3 {
+  color: white;
+  font-size: var(--font-size-text);
+  margin-top: 50px;
+}
+
+.tech__ability {
+  display: none;
+  font-weight: bold;
+  color: var(--color-sub);
+  font-size: var(--font-size-tag);
+}
+
+.tech__item::after {
+  content: '';
+  position: absolute;
+  width: 150px;
+  height: 3%;
+  border-radius: 50%;
+  margin-top: 165px;
+  background-color: rgba(255, 255, 255, 0.5);
+  animation: logo-shadow;
+  animation-duration: 800ms;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@media (min-width: 769px) {
+  .tech__item img:hover ~ .tech__ability {
+    display: inline;
+    position: absolute;
+    margin-top: 100px;
+    border-radius: 30%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+  }
+}
+
+@media (max-width: 768px) {
+  .tech__article {
+    flex-direction: column;
+  }
+  .tech__ability{
+    display: block;
+    margin-top: 0px;
+    border-radius: 30%;
+  }
+}
+
+/* 로고 애니메이션 */
+@keyframes tech__animation {
+  from {
+    transform: translate(0px, 7%);
+  }
+  to {
+    transform: translate(0px, 0%);
+  }  
+}
+
+/* 로고 그림자 애니메이션 */
+@keyframes logo-shadow {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}

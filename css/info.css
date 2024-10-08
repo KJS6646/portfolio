@@ -1,0 +1,30 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.info__text {
+  color: white;
+  font-size: var(--font-size-text);
+  line-height: 2;
+}
+
+.info__texta {
+  background-color: var(--color-area);
+  padding: 30px;
+  margin-bottom: 15px;
+  width: 80vw;
+  height: 40vh;
+  overflow-y: overlay;
+}
+
+.info__cert {
+  background-color: var(--color-area);
+  width: 60vw;
+  color: white;
+  font-size: var(--font-size-text);
+  height: 40vh;
+}
