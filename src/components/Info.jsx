@@ -70,6 +70,7 @@ export default function Info() {
               <tr>
                 <th>기간</th>
                 <th>학교명</th>
+                <th>학과</th>
                 <th>상태</th>
               </tr>
             </thead>
@@ -77,16 +78,19 @@ export default function Info() {
               <tr>
                 <td>2010 ~ 2013</td>
                 <td>무거중학교</td>
+                <td>-</td>
                 <td>졸업</td>
               </tr>
               <tr>
                 <td>2013 ~ 2016</td>
                 <td>무거고등학교</td>
+                <td>-</td>
                 <td>졸업</td>
               </tr>
               <tr>
                 <td>2025.03 ~ 재학중</td>
                 <td>서울사이버대학교</td>
+                <td>빅데이터정보보안학과</td>
                 <td>재학중</td>
               </tr>
             </tbody>
