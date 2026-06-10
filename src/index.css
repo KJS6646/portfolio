@@ -233,7 +233,7 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/image/intro2.png');
+  /* background-image set via inline style in Intro.jsx for BASE_URL support */
   background-size: cover;
   background-position: center;
   overflow: hidden;

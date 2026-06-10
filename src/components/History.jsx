@@ -204,7 +204,7 @@ function ProjectCard({ project, index }) {
                 {project.imgs.map((img) => (
                   <img
                     key={img}
-                    src={`/image/${img}`}
+                    src={`${import.meta.env.BASE_URL}image/${img}`}
                     alt={img.replace(".png", "")}
                   />
                 ))}

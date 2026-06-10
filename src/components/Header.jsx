@@ -32,7 +32,7 @@ export default function Header({ theme, onToggleTheme }) {
   return (
     <header className={`header${scrolled ? ' header--scrolled' : ''}`}>
       <a href="#" className="header__logo">
-        <img src="/image/logo.png" alt="KJS Portfolio" />
+        <img src={`${import.meta.env.BASE_URL}image/logo.png`} alt="KJS Portfolio" />
       </a>
 
       <nav className={`header__nav${menuOpen ? ' header__nav--open' : ''}`}>

@@ -53,7 +53,7 @@ function TechBadge({ skill }) {
       transition={{ type: 'spring', stiffness: 400, damping: 17 }}
     >
       {skill.img ? (
-        <img src={`/image/${skill.img}`} alt={skill.name} className="tech-badge__img" />
+        <img src={`${import.meta.env.BASE_URL}image/${skill.img}`} alt={skill.name} className="tech-badge__img" />
       ) : (
         <span className="tech-badge__dot" style={{ background: skill.color }} />
       )}

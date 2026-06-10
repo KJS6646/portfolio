@@ -5,7 +5,7 @@ export default function Intro() {
   const displayed = useTyping('김준석의 포트폴리오', { speed: 85, delay: 900 })
 
   return (
-    <section className="intro">
+    <section className="intro" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}image/intro2.png)` }}>
       <div className="intro__overlay" />
 
       <motion.div
