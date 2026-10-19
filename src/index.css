@@ -332,39 +332,13 @@ ul { list-style: none; }
   100% { transform: translateX(-50%) translateY(0); opacity: 0; }
 }
 
-.intro__wave {
+.particles-bg {
   position: absolute;
-  bottom: 0; left: 0;
+  inset: 0;
   width: 100%;
-  height: 160px;
+  height: 100%;
   z-index: 1;
-  overflow: hidden;
   pointer-events: none;
-}
-
-.wave-layer {
-  position: absolute;
-  bottom: 0; left: 0;
-  width: 200%;
-  height: 100%;
-}
-.wave-layer svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.wave-layer--1 svg { fill: rgba(255, 255, 255, 0.22); }
-.wave-layer--2 svg { fill: rgba(255, 255, 255, 0.14); }
-.wave-layer--3 svg { fill: rgba(255, 255, 255, 0.09); }
-
-.wave-layer--1 { animation: wave-flow 12s linear infinite; will-change: transform; }
-.wave-layer--2 { animation: wave-flow 18s linear infinite reverse; will-change: transform; }
-.wave-layer--3 { animation: wave-flow 26s linear infinite; will-change: transform; }
-
-@keyframes wave-flow {
-  0%   { transform: translate3d(0, 0, 0); }
-  100% { transform: translate3d(-50%, 0, 0); }
 }
 
 /* ══════════════════════════════
