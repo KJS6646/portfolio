@@ -133,7 +133,8 @@ ul { list-style: none; }
   border-bottom-color: var(--border);
   box-shadow: var(--shadow-sm);
 }
-.header__logo img { height: 36px; width: auto; }
+.header__logo img { height: 36px; width: auto; transition: filter 0.2s; }
+[data-theme="dark"] .header__logo img { filter: invert(1) brightness(1.1); }
 
 .header__nav {
   display: flex;

@@ -108,13 +108,13 @@ const PROJECTS = [
     imgs: ["delphi.png", "postgresql.png", "Dbeaver.png", "svn.png"],
   },
   {
-    title: "환영철강 TMS 구축 2025",
-    work: "환영철강 TMS 구축",
+    title: "철강업체 TMS 구축 2025",
+    work: "철강업체 TMS 구축",
     role: "TMS WEB 구축 및 GIS 기능 구현 (프론트엔드, 백엔드)",
     stack: "React, JavaScript, Spring Boot, Java",
     period: "2025-01-13 ~ 2025-10-21",
     members: "4인",
-    desc: "환영철강의 운송관리 시스템 개발",
+    desc: "철강업체의 운송관리 시스템 개발",
     imgs: [
       "react.png",
       "javascript.png",
@@ -124,13 +124,13 @@ const PROJECTS = [
     ],
   },
   {
-    title: "동국산업 AAS 구축 2026",
-    work: "동국산업 AAS 구축",
+    title: "철강업체 AAS 구축 2026",
+    work: "철강업체 AAS 구축",
     role: "AAS(Asset Administration Shell) 구축 (BaSyx 플랫폼 사용) 및 WEB 구축",
     stack: "JavaScript, Vue, Spring Boot, Java",
     period: "2026-03-10 ~ 2026-07-10",
     members: "3인",
-    desc: "동국산업의 자산관리시스템 WEB 및 플랫폼 구축",
+    desc: "철강업체의 자산관리시스템 WEB 및 플랫폼 구축",
     imgs: [
       "vuejs.png",
       "javascript.png",
